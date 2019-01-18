@@ -1,0 +1,8 @@
+rm(list = ls())
+mean(x)
+traceback()
+lm(y ~ x)
+traceback()
+debug(lm)
+options(error = recover)
+read.csv("nonsuchfile")
